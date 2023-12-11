@@ -1,0 +1,44 @@
+.slider,
+.slider_box_items {
+  width: 68.4rem;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.slider_box_item {
+  display: flex;
+  gap: 2rem;
+  cursor: grab;
+}
+.slider_box_item > * {
+  flex-shrink: 0;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+.icon:first-child {
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+  overflow: hidden;
+}
+.icon img {
+  width: 3rem;
+  height: 3rem;
+}
+.icon.icon-left {
+  left: 0;
+  margin-left: 1rem;
+  background: linear-gradient(90deg, #ffffff8f 70%, transparent);
+  cursor: pointer;
+}
+.icon.icon-right {
+  right: 0;
+  background: linear-gradient(-90deg, #ffffff8f 70%, transparent);
+  cursor: pointer;
+}

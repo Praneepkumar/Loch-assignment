@@ -1,0 +1,16 @@
+.banner {
+  background: radial-gradient(
+    ellipse at 16% 93%,
+    rgb(29, 152, 16) 5%,
+    rgba(31, 169, 17, 1) 9%,
+    rgba(47, 21, 208, 1) 46%,
+    rgba(25, 25, 25, 0.9) 74%,
+    rgb(24, 24, 24) 100%
+  );
+}
+.backdrop {
+  background: rgba(0, 0, 0, 0.082);
+  backdrop-filter: blur(46px);
+  min-height: 100vh;
+  padding: 8.6rem 0 6.1rem 6rem;
+}

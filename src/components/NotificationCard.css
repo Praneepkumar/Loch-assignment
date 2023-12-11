@@ -1,0 +1,90 @@
+.notification-card {
+  width: 19rem;
+  max-height: 17.2rem;
+  padding: 1.4rem;
+
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 27.5%,
+      rgba(22, 93, 255, 0.16) 157.71%
+    ),
+    #fff;
+  box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04),
+    0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 8.4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  perspective: 10rem;
+  transition: all 0.5s;
+}
+.notification-card > *,
+.notification-card.bg-white > * {
+  flex-grow: 0;
+}
+.notification-icon {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.save-button {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #19191a;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.input-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.input-content h4 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #19191a;
+}
+.input-box {
+  padding: 0.84rem 1.12rem;
+  border-radius: 5.6px;
+  border: 0.7px solid #d4d4d4;
+  background: #fff;
+}
+.input-box::placeholder {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #cacbcc;
+}
+.checkbox-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.46rem;
+  justify-items: flex-end;
+}
+.settings-message {
+  gap: 0.9rem;
+}
+.checkbox-content p {
+  font-size: 1.12rem;
+  font-weight: 500;
+  color: #19191a;
+}
+.dropdown {
+  padding: 0.42rem;
+  background: rgba(229, 229, 230, 0.5);
+  border-radius: 2.8px;
+  border: none;
+  color: #313233;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.bg-white {
+  background: #fff;
+}

@@ -1,0 +1,118 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/*************************************/
+/* BELOW 1475px (Small Desktop) */
+/*************************************/
+
+@media (max-width: 92.3em) {
+  .testimonials-content {
+    gap: 4rem !important;
+  }
+}
+
+/**************************************/
+/* BELOW 1200px (Landscape Tablets) */
+/*************************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25% !important;
+  }
+}
+/**************************************/
+/* BELOW 1008px (standard Tablets) */
+/**************************************/
+
+@media (max-width: 63em) {
+  .App {
+    grid-template-columns: 1fr !important;
+  }
+  .signup {
+    padding: 12rem 0 !important;
+  }
+  .flex-col-content {
+    width: 38rem !important;
+  }
+  .notifications-slider {
+    width: 50rem !important;
+  }
+  .notifications-slider::after,
+  .notifications-slider::before {
+    height: 74% !important;
+  }
+  .portfolio-img {
+    width: 35rem !important;
+    height: 32rem !important;
+  }
+}
+
+/**************************************/
+/* BELOW 840px (iPads) */
+/**************************************/
+
+@media (max-width: 52.5em) {
+  .flex-col-content {
+    width: 36rem !important;
+  }
+  .notifications-slider {
+    width: 48rem !important;
+  }
+}
+/**************************************/
+/* BELOW 684px (iPads) */
+/**************************************/
+
+@media (max-width: 42.7em) {
+  html {
+    /* 8px / 16px  */
+    font-size: 50% !important;
+  }
+  .notifications,
+  .whales {
+    align-items: center;
+    gap: 6rem;
+  }
+  .notifications {
+    flex-direction: column;
+  }
+  .whales {
+    flex-direction: column-reverse;
+  }
+  .flex-col-content,
+  .whale-right {
+    align-items: center !important;
+    width: auto !important;
+  }
+  .backdrop {
+    padding: 8rem 6rem !important;
+  }
+  .flex-col-content h3,
+  .flex-col-content p,
+  .whale-right h3,
+  .whale-right p {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .testimonials {
+    margin-top: 8rem;
+  }
+  .testimonials-content {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+}

@@ -1,0 +1,21 @@
+.testimonials-heading {
+  color: #f2f2f2;
+  margin-bottom: 4rem;
+  margin-right: 6rem;
+  border-bottom: 1px solid rgba(229, 229, 230, 0.5);
+}
+.testimonials-heading h4 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+  text-align: right;
+}
+.testimonials-content {
+  display: flex;
+  align-items: flex-end;
+  /*gap: 4rem;*/
+  justify-content: space-between;
+}
+.testimonials-content .logo {
+  width: 6rem;
+}

@@ -1,0 +1,23 @@
+.whales {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 6rem;
+  margin: 6.1rem 0 2.2rem 0;
+}
+.portfolio-img {
+  width: 33.5rem;
+  height: 30.6rem;
+  border-radius: 1.2rem;
+  border: 1.5px solid rgba(255, 255, 255, 0.68);
+  box-shadow: 0px 14px 64px -4px rgba(24, 39, 75, 0.12),
+    0px 8px 22px -6px rgba(24, 39, 75, 0.12);
+  overflow: hidden;
+}
+.whale-right {
+  align-items: flex-end;
+}
+.whale-right h3,
+.whale-right p {
+  text-align: right;
+  text-shadow: none;
+}
