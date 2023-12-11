@@ -144,13 +144,13 @@ body {
     height: 100% !important;
   }
   .notifications-slider {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
   }
   .save-button {
     font-size: 1.2rem !important;
   }
   .checkbox-content p {
-    font-size: 1.32rem !important;
+    font-size: 1.42rem !important;
   }
   .portfolio-img {
     width: 50rem !important;
@@ -161,7 +161,9 @@ body {
     font-size: 4rem !important;
     text-align: center !important;
   }
-
+  .input-content h4 {
+    font-size: 1.6rem !important;
+  }
   .form-input,
   .form-btn {
     font-size: 2.2rem !important;
@@ -193,5 +195,43 @@ body {
   .slider_box_item,
   .slider_box_items {
     height: 23rem !important;
+  }
+  .portfolio-img {
+    transition: all 0.3s;
+  }
+  .portfolio-img:hover {
+    transform: scale(1.18);
+  }
+} /**************************************/
+/* BELOW 500px (mobile) */
+/**************************************/
+@media (max-width: 31.5em) {
+  .notification-card {
+    width: 22rem !important;
+    max-height: 20rem !important;
+    padding: 1.6rem !important;
+  }
+  .input-content h4 {
+    font-size: 1.8rem !important;
+  }
+  .checkbox-content p {
+    font-size: 1.5rem !important;
+  }
+
+  .flex-col-content p {
+    font-size: 2.4rem !important;
+  }
+  .form-heading {
+    font-size: 5rem !important;
+  }
+  .form-input::placeholder {
+    font-size: 1.8rem !important;
+  }
+  .form-message {
+    font-size: 1.8rem !important;
+  }
+  .portfolio-img {
+    width: 52rem !important;
+    height: 47rem !important;
   }
 }
