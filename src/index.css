@@ -234,4 +234,18 @@ body {
     width: 52rem !important;
     height: 47rem !important;
   }
+  .signup {
+    padding: 16rem 0 !important;
+  }
+  .form-heading {
+    width: 67rem !important;
+  }
+  .form-input,
+  .form-btn {
+    height: 9.3rem !important;
+    padding: 1.8rem 2.2rem !important;
+  }
+  .form-body {
+    gap: 4rem !important;
+  }
 }
