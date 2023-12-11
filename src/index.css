@@ -92,8 +92,7 @@ body {
   }
   .whales {
     flex-direction: column-reverse;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    padding-right: 0 !important;
   }
   .flex-col-content,
   .whale-right {
@@ -104,17 +103,20 @@ body {
     padding: 8rem 6rem !important;
   }
   .flex-col-content h3 {
-    font-size: 3.9rem !important;
+    font-size: 4.3rem !important;
   }
   .flex-col-content h3,
   .flex-col-content p,
   .whale-right h3,
   .whale-right p {
     text-align: center !important;
+  }
+  .flex-col-content p,
+  .whale-right p {
     line-height: 1.5 !important;
   }
   .flex-col-content p {
-    font-size: 1.8rem;
+    font-size: 2rem !important;
   }
   .testimonials {
     margin-top: 8rem;
@@ -127,7 +129,7 @@ body {
     margin-right: 0 !important;
   }
   .testimonials-heading h4 {
-    font-size: 3rem !important;
+    font-size: 3.8rem !important;
     text-align: left !important;
   }
   .notifications-slider {
@@ -155,17 +157,41 @@ body {
     height: 45rem !important;
   }
   .form-heading {
-    width: 50rem !important;
+    width: 56rem !important;
     font-size: 4rem !important;
     text-align: center !important;
   }
 
   .form-input,
   .form-btn {
+    font-size: 2.2rem !important;
     padding-top: 2.5rem !important;
     padding-bottom: 2.5rem !important;
   }
-  .form-message {
+  .form-input::placeholder {
     font-size: 1.8rem;
+  }
+  .form-message {
+    font-size: 2rem;
+  }
+  .testimonial-card {
+    width: 45.4rem !important;
+    height: 23rem !important;
+    padding: 3rem 3.2rem !important;
+  }
+  .testimonial-card blockquote {
+    font-size: 1.8rem;
+    line-height: 1.4;
+  }
+  .testimonial-heading h2 {
+    font-size: 1.8rem;
+  }
+  .testimonial-heading em {
+    font-size: 1.5rem;
+  }
+  .slider,
+  .slider_box_item,
+  .slider_box_items {
+    height: 23rem !important;
   }
 }

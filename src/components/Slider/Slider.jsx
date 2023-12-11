@@ -23,6 +23,12 @@ const Slider = () => {
       testimonial:
         "Managing my own portfolio is helpful and well designed. What’s really interesting is watching the whales though. No one else has made whale tracking so simple.",
     },
+    {
+      name: "Sharath P",
+      designation: "Senior dev",
+      testimonial:
+        "Love how Loch integrates portfolio analytics and whale watching into one unified app.",
+    },
   ];
   const [width, setWidth] = useState(0);
   const dragSlider = useRef();
