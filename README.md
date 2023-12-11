@@ -4,6 +4,8 @@ This documentation provides information about a responsive web page crafted usin
 
 In the process of creating this web page, I've diligently strived to integrate the design accurately, ensuring pixel-perfect responsiveness. Despite the absence of specific device size guidelines, I have endeavored to maintain precise dimensions for components, font sizes, and other specified instructions.
 
+I would've used 'Bootstrap','Tailwind' or any othe CSS frameworks for responsiveness and minimal coding but I prefer to showcase my core CSS skills to get a clear picture about my abilities.
+
 ### `Hosted link to the working website`
 
 Open [https://praneep-loch-assignment.netlify.app/](https://praneep-loch-assignment.netlify.app/) to view it in your browser.
